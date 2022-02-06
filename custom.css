@@ -1,3 +1,50 @@
-* {
-  background-color: goldenrod;
+/* Global Styles */
+
+/* this is needed to make the content scrollable on larger screens */
+@media (min-width: 576px) {
+  .h-sm-100 {
+    height: 100%;
+  }
+}
+
+/* color palette */
+.color-ebony {
+  color: #0f172a;
+}
+
+.color-gullgray {
+  color: #94a3b8;
+}
+
+.color-mirage {
+  color: #1e293b;
+}
+
+.color-white {
+  color: #fefefe;
+}
+
+.color-header-gradient {
+  background: linear-gradient(90deg, #12c2e9 0%, #c471ed 50%, #f64f59 100%);
+}
+
+/* background color palette */
+.color-ebony {
+  background-color: #0f172a;
+}
+
+.color-gullgray {
+  background-color: #94a3b8;
+}
+
+.color-mirage {
+  background-color: #1e293b;
+}
+
+.color-white {
+  background-color: #fefefe;
+}
+
+.color-header-gradient {
+  background: linear-gradient(90deg, #12c2e9 0%, #c471ed 50%, #f64f59 100%);
 }
