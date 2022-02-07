@@ -18,6 +18,67 @@
     <!--End of Custom Styles-->
   </head>
   <body>
+    <!--desktop sidebar/mobile navbar-->
+    <div class="container-fluid d-flex flex flex-column flex-md-row">
+      <nav
+        class="navbar navbar-expand-md navbar-dark bg-ebony d-flex flex-md-column overlay"
+      >
+        <a class="py-5 mx-5" href="/">
+          <img src="../assets/logo/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          area-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse w-100 align-items-start"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav w-100 d-flex flex-md-column text-center text-md-center"
+          >
+            <li class="list-item mb-5">
+              <a href="/" class="nav-link my-3" aria-current="page">Work</a>
+              <a href="/pages/skills.html" class="nav-link my-3">Skills</a>
+              <a href="/pages/about.html" class="nav-link my-3">About</a>
+              <a href="/pages/contact.html" class="nav-link my-3 mb-5 active"
+                >Contact</a
+              >
+            </li>
+            <li class="list-item mt-5" id="social-media-icons">
+              <a href="/" class="nav-link mt-5"
+                ><img src="../assets/icons/linkedin_icon.jpg"
+              /></a>
+              <a href="/" class="nav-link"
+                ><img src="../assets/icons/github_icon.jpg"
+              /></a>
+              <a href="/" class="nav-link"
+                ><img src="../assets/icons/email_icon.jpg"
+              /></a>
+              <a href="/" class="nav-link"
+                ><img src="../assets/icons/twitter_icon.jpg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--End of desktop sidebar/mobile navbar-->
+      <!--content-->
+      <main class="ps-0 ps-md-5">
+        <h1>Hello World</h1>
+        <p></p>
+      </main>
+      <!--end of content-->
+    </div>
+
     <!--BootStrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
