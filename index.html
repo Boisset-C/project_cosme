@@ -37,7 +37,6 @@
   <body>
     <div class="container-fluid d-flex flex flex-column flex-md-row">
       <!--desktop sidebar/mobile navbar-->
-
       <nav
         class="navbar navbar-expand-md navbar-dark bg-ebony d-flex flex-md-column overlay"
       >
@@ -45,7 +44,7 @@
           <img src="assets/logo/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler mx-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -60,18 +59,19 @@
           class="collapse navbar-collapse w-100 align-items-start"
           id="navbarSupportedContent"
         >
-          <div
+          <ul
             class="navbar-nav w-100 d-flex flex-md-column text-center text-md-center"
           >
-            <div class="">
-              <a href="/" class="nav-link py-2" aria-current="page">Work</a>
-              <a href="/pages/skills.html" class="nav-link py-2">Skills</a>
-              <a href="/pages/about.html" class="nav-link py-2">About</a>
-              <a href="/pages/contact.html" class="nav-link py-2">Contact</a>
-            </div>
-
-            <div class="">
-              <a href="/" class="nav-link"
+            <li class="list-item mb-5">
+              <a href="/" class="nav-link my-3" aria-current="page">Work</a>
+              <a href="/pages/skills.html" class="nav-link my-3">Skills</a>
+              <a href="/pages/about.html" class="nav-link my-3">About</a>
+              <a href="/pages/contact.html" class="nav-link my-3 mb-5"
+                >Contact</a
+              >
+            </li>
+            <li class="list-item mt-5" id="social-media-icons">
+              <a href="/" class="nav-link mt-5"
                 ><img src="assets/icons/linkedin_icon.jpg"
               /></a>
               <a href="/" class="nav-link"
@@ -83,8 +83,8 @@
               <a href="/" class="nav-link"
                 ><img src="assets/icons/twitter_icon.jpg"
               /></a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </nav>
       <!--End of desktop sidebar/mobile navbar-->
