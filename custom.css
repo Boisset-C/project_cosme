@@ -39,7 +39,6 @@
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .show > .nav-link {
     border-right: initial;
-    font-weight: bold;
     color: #fefefe;
     border-color: #fefefe;
   }
