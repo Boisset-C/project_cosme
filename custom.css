@@ -71,17 +71,15 @@
 }
 
 .nav-link:hover {
-  border-right: 4px solid;
   font-weight: bold;
-  color: #fefefe;
-  border-color: #fefefe;
+  color: #29b2d9 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .show > .nav-link {
   border-right: 4px solid;
   font-weight: bold;
-  color: #fefefe;
+  color: #fefefe !important;
   border-color: #fefefe;
 }
 
