@@ -60,13 +60,15 @@
 }
 
 /* Sidebar Styles */
-.overlay {
-  height: initial;
+@media (min-width: 800px) {
+  .custom-vh-md {
+    height: 100vh;
+  }
 }
 
-@media (min-width: 576px) {
-  .overlay {
-    height: 100vh;
+@media (max-height: 375px) {
+  .custom-vw-md {
+    height: 100%;
   }
 }
 
@@ -93,6 +95,42 @@
 }
 
 /*Contact Page Styles */
+.contact-custom-header {
+  font-size: 6rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    90deg,
+    #12c2e9 0%,
+    #c471ed 50%,
+    #f64f59 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .input-bg {
   border-color: #2f3c52;
+}
+
+.input-bg:focus {
+  background-color: #2f3c52;
+  outline: 1px solid #2f3c52 !important;
+  border-color: #2f3c52;
+}
+
+.contact-btn-custom {
+  color: #94a3b8;
+  background-color: transparent;
+  border: #94a3b8 solid 1px;
+}
+
+.contact-btn-custom:hover {
+  color: #94a3b8;
+  background-color: transparent;
+  border: #94a3b8 solid 2px;
+  font-weight: bold;
 }

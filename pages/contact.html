@@ -19,9 +19,11 @@
   </head>
   <body>
     <!--desktop sidebar/mobile navbar-->
-    <div class="container-fluid d-flex flex flex-column flex-md-row bg-mirage">
+    <div
+      class="container-fluid d-flex flex flex-column flex-md-row bg-mirage fixed-top"
+    >
       <nav
-        class="navbar navbar-expand-md navbar-dark bg-ebony d-flex flex-md-column overlay fixed"
+        class="navbar navbar-expand-md navbar-dark bg-ebony d-flex flex-md-column"
       >
         <a class="py-5 mx-5" href="/">
           <img src="../assets/logo/logo.png" alt="logo" />
@@ -71,59 +73,82 @@
         </div>
       </nav>
       <!--End of desktop sidebar/mobile navbar-->
+
       <!--content-->
-      <div class="row me-0">
-        <div class="col-sm-9">
+      <div class="row">
+        <div class="col-sm-10">
           <main class="ps-0 ps-md-5 bg-mirage vh-100 text-white">
-            <h1 class="color-white">GET IN CONTACT</h1>
-            <p class="color-white">
+            <h1
+              class="color-white contact-custom-header text-nowrap mt-5 overflow"
+            >
+              GET IN CONTACT
+            </h1>
+            <p class="color-white mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor rhoncus dolor purus dolor purus non enim
             </p>
             <!--Form-->
-            <div class="mb-3">
-              <label
-                for="exampleFormControlInput1"
-                class="form-label color-white"
-                >Your name</label
-              >
-              <input
-                type="email"
-                class="form-control bg-charcoal input-bg"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="mb-3">
-              <label
-                for="exampleFormControlInput1"
-                class="form-label color-white"
-                >Your email address</label
-              >
-              <input
-                type="email"
-                class="form-control bg-charcoal input-bg"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="mb-3">
-              <label
-                for="exampleFormControlTextarea1"
-                class="form-label color-white"
-                >Compose your message</label
-              >
-              <textarea
-                class="form-control bg-charcoal input-bg"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-            <!--End of Form-->
+            <form>
+              <div class="row">
+                <div class="col-sm-7">
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label color-white"
+                      >Your name</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control bg-charcoal input-bg"
+                      id="exampleFormControlInput1"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label color-white"
+                      >Your email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control bg-charcoal input-bg"
+                      id="exampleFormControlInput1"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlTextarea1"
+                      class="form-label color-white"
+                      >Compose your message</label
+                    >
+                    <textarea
+                      class="form-control bg-charcoal input-bg"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <img
+                    src="../assets/contact-images/contact_rocketman.jpg"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-sm-3">
+                  <button
+                    type="submit"
+                    class="btn contact-btn-custom px-3 py-2"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
           </main>
         </div>
-        <!--end of content-->
       </div>
       <!--end of content-->
     </div>
@@ -137,3 +162,10 @@
     <!--End of BootStrap JS-->
   </body>
 </html>
+
+<!--content-->
+<div class="row">
+  <div class="col-sm-10">
+    <main class="ps-0 ps-md-5 bg-mirage vh-100 text-white"></main>
+  </div>
+</div>
