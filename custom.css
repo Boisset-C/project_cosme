@@ -69,7 +69,7 @@
 }
 
 /*mobile side view sidebar*/
-@media (max-height: 415px) {
+@media (max-height: 430px) {
   .custom-vw-md {
     height: 100%;
   }
