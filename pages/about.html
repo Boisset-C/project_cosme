@@ -13,78 +13,100 @@
       crossorigin="anonymous"
     />
     <!--End Of BootStrap CSS-->
-    <!--Roboto Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!--End of Roboto Font-->
     <!--Custom Styles-->
-    <link href="/custom.css" rel="stylesheet" />
+    <link href="../custom.css" rel="stylesheet" />
     <!--End of Custom Styles-->
   </head>
-  <body>
-    <!--desktop sidebar/mobile navbar-->
-    <div class="container-fluid d-flex flex flex-column flex-md-row bg-mirage">
+  <body class="bg-mirage">
+    <!--Side Bar-->
+    <div
+      class="container-fluid d-flex flex-column flex-sm-column flex-md-row sticky-top custom-vh-md custom-vw-md"
+    >
       <nav
-        class="navbar navbar-expand-md navbar-dark bg-ebony d-flex flex-md-column overlay"
+        class="navbar navbar-expand-md navbar-dark d-flex flex-md-column col-md-1 bg-ebony"
       >
-        <a class="py-5 mx-5" href="/">
-          <img src="../assets/logo/logo.png" alt="logo" />
+        <a href="/" class="">
+          <img
+            src="/assets/logo/logo.png"
+            alt="logo"
+            class="img-fluid mx-3 my-2"
+          />
         </a>
         <button
           class="navbar-toggler mx-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          aria-controls="navbarSupportContent"
           aria-expanded="false"
-          area-label="Toggle Navigation"
+          aria-label="Toggle Navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"> </span>
         </button>
 
-        <div
-          class="collapse navbar-collapse w-100 align-items-start"
-          id="navbarSupportedContent"
-        >
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
           <ul
             class="navbar-nav w-100 d-flex flex-md-column text-center text-md-center"
           >
-            <li class="list-item mb-5">
-              <a href="/" class="nav-link my-3" aria-current="page">Work</a>
-              <a href="/pages/skills.html" class="nav-link my-3">Skills</a>
-              <a href="/pages/about.html" class="nav-link my-3 active">About</a>
-              <a href="/pages/contact.html" class="nav-link my-3 mb-5"
-                >Contact</a
-              >
+            <li class="list-item">
+              <a href="/" class="nav-link" aria-current="page">Work</a>
             </li>
-            <li class="list-item mt-5" id="social-media-icons">
-              <a href="/" class="nav-link mt-5"
-                ><img src="../assets/icons/linkedin_icon.jpg"
-              /></a>
+            <li class="list-item">
+              <a href="/pages/skills.html" class="nav-link">Skills</a>
+            </li>
+            <li class="list-item">
+              <a href="/pages/about.html" class="nav-link active">About</a>
+            </li>
+            <li class="list-item pb-5">
+              <a href="/pages/contact.html" class="nav-link mb-5">Contact</a>
+            </li>
+            <li class="list-item pt-5">
+              <a href="/" class="nav-link pt-5" aria-current="page"></a>
+                <svg
+              
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="sidebar-icons"
+                    d="M23.4906 0.5H2.50938C1.4 0.5 0.5 1.4 0.5 2.50938V23.4906C0.5 24.6 1.4 25.5 2.50938 25.5H23.4906C24.6 25.5 25.5 24.6 25.5 23.4906V2.50938C25.5 1.4 24.6 0.5 23.4906 0.5V0.5ZM23.4906 23.5C9.49688 23.4969 2.5 23.4938 2.5 23.4906C2.50313 9.49688 2.50625 2.5 2.50938 2.5C16.5031 2.50313 23.5 2.50625 23.5 2.50938C23.4969 16.5031 23.4938 23.5 23.4906 23.5ZM4.20625 9.87187H7.91562V21.8031H4.20625V9.87187ZM6.0625 8.24063C7.24688 8.24063 8.2125 7.27812 8.2125 6.09062C8.2125 5.80828 8.15689 5.52871 8.04884 5.26786C7.94079 5.00701 7.78243 4.76999 7.58278 4.57035C7.38313 4.3707 7.14612 4.21233 6.88527 4.10428C6.62442 3.99624 6.34484 3.94063 6.0625 3.94063C5.78016 3.94063 5.50058 3.99624 5.23973 4.10428C4.97888 4.21233 4.74187 4.3707 4.54222 4.57035C4.34257 4.76999 4.18421 5.00701 4.07616 5.26786C3.96811 5.52871 3.9125 5.80828 3.9125 6.09062C3.90937 7.27812 4.87188 8.24063 6.0625 8.24063ZM13.9469 15.9C13.9469 14.3437 14.2437 12.8375 16.1719 12.8375C18.0719 12.8375 18.1 14.6156 18.1 16V21.8031H21.8062V15.2594C21.8062 12.0469 21.1125 9.575 17.3594 9.575C15.5562 9.575 14.3469 10.5656 13.85 11.5031H13.8V9.87187H10.2406V21.8031H13.9469V15.9Z"
+                    fill="#94A3B8"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="/" class="nav-link">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="sidebar-icons" d="M13.9875 0.384279C6.25937 0.381154 0 6.6374 0 14.3593C0 20.4655 3.91562 25.6561 9.36875 27.5624C10.1031 27.7468 9.99062 27.2249 9.99062 26.8686V24.4468C5.75 24.9436 5.57812 22.1374 5.29375 21.6686C4.71875 20.6874 3.35937 20.4374 3.76562 19.9686C4.73125 19.4718 5.71562 20.0936 6.85625 21.778C7.68125 22.9999 9.29062 22.7936 10.1062 22.5905C10.2844 21.8561 10.6656 21.1999 11.1906 20.6905C6.79687 19.903 4.96562 17.2218 4.96562 14.0343C4.96562 12.4874 5.475 11.0655 6.475 9.91865C5.8375 8.02803 6.53437 6.40928 6.62812 6.16865C8.44375 6.00615 10.3312 7.46865 10.4781 7.58428C11.5094 7.30615 12.6875 7.15928 14.0062 7.15928C15.3312 7.15928 16.5125 7.3124 17.5531 7.59365C17.9062 7.3249 19.6562 6.06865 21.3437 6.22178C21.4344 6.4624 22.1156 8.04365 21.5156 9.90928C22.5281 11.0593 23.0437 12.4936 23.0437 14.0436C23.0437 17.2374 21.2 19.9218 16.7937 20.6968C17.1712 21.0679 17.4708 21.5106 17.6752 21.9988C17.8797 22.4871 17.9848 23.0112 17.9844 23.5405V27.0561C18.0094 27.3374 17.9844 27.6155 18.4531 27.6155C23.9875 25.7499 27.9719 20.5218 27.9719 14.3624C27.9719 6.6374 21.7094 0.384279 13.9875 0.384279Z" fill="#94A3B8"/>
+                </svg>  
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="/" class="nav-link">
+                <svg  width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="sidebar-icons" d="M27 0H1C0.446875 0 0 0.446875 0 1V21C0 21.5531 0.446875 22 1 22H27C27.5531 22 28 21.5531 28 21V1C28 0.446875 27.5531 0 27 0ZM25.75 3.4625V19.75H2.25V3.4625L1.3875 2.79063L2.61562 1.2125L3.95312 2.25313H24.05L25.3875 1.2125L26.6156 2.79063L25.75 3.4625V3.4625ZM24.05 2.25L14 10.0625L3.95 2.25L2.6125 1.20937L1.38438 2.7875L2.24687 3.45938L12.9219 11.7594C13.2289 11.9979 13.6066 12.1273 13.9953 12.1273C14.3841 12.1273 14.7618 11.9979 15.0688 11.7594L25.75 3.4625L26.6125 2.79063L25.3844 1.2125L24.05 2.25Z" fill="#94A3B8"/>
+                  </svg>                   
+              </a>
+            </li>
+            <li class="list-item">
               <a href="/" class="nav-link"
-                ><img src="../assets/icons/github_icon.jpg"
-              /></a>
-              <a href="/" class="nav-link"
-                ><img src="../assets/icons/email_icon.jpg"
-              /></a>
-              <a href="/" class="nav-link"
-                ><img src="../assets/icons/twitter_icon.jpg"
-              /></a>
+                >
+                <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="sidebar-icons" d="M27.0002 2.94689C26.0439 3.35939 25.0033 3.65626 23.9314 3.77189C25.0443 3.11075 25.8777 2.06626 26.2752 0.834388C25.2309 1.4556 24.0869 1.89121 22.8939 2.12189C22.3953 1.58885 21.7923 1.1642 21.1224 0.874411C20.4525 0.584623 19.7301 0.435901 19.0002 0.437513C16.0471 0.437513 13.6721 2.83126 13.6721 5.76876C13.6721 6.18127 13.7221 6.59377 13.8033 6.99064C9.38144 6.75939 5.43769 4.64689 2.81582 1.41251C2.33809 2.2285 2.08774 3.15759 2.09082 4.10314C2.09082 5.95314 3.03144 7.58439 4.46582 8.54377C3.62052 8.51048 2.79502 8.27814 2.05645 7.86564V7.93127C2.05645 10.5219 3.88769 12.6688 6.32832 13.1625C5.87006 13.2816 5.39865 13.3424 4.92519 13.3438C4.57832 13.3438 4.25019 13.3094 3.91894 13.2625C4.59394 15.375 6.55957 16.9094 8.90019 16.9594C7.06894 18.3938 4.77519 19.2375 2.28457 19.2375C1.8377 19.2375 1.4252 19.2219 0.99707 19.1719C3.35957 20.6875 6.16269 21.5625 9.18144 21.5625C18.9814 21.5625 24.3439 13.4438 24.3439 6.39689C24.3439 6.16564 24.3439 5.93439 24.3283 5.70314C25.3658 4.94376 26.2752 4.00314 27.0002 2.94689Z" fill="#94A3B8"/>
+                  </svg>
+                  
+              </a>
             </li>
           </ul>
         </div>
       </nav>
-      <!--End of desktop sidebar/mobile navbar-->
-      <!--content-->
-      <div class="row">
-        <div class="col-sm-10">
-          <main class="ps-0 ps-md-5 bg-mirage vh-100 text-white"></main>
-        </div>
-        <!--end of content-->
+      <!--End of Side Bar-->
+      <div class="col-md-11">
+
       </div>
     </div>
 
