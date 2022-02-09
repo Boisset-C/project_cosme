@@ -60,13 +60,16 @@
 }
 
 /* Sidebar Styles */
+
+/* desktop sidebar view*/
 @media (min-width: 800px) {
   .custom-vh-md {
     height: 100vh;
   }
 }
 
-@media (max-height: 375px) {
+/*mobile side view sidebar*/
+@media (max-height: 415px) {
   .custom-vw-md {
     height: 100%;
   }
@@ -75,6 +78,10 @@
 .nav-link:hover {
   font-weight: bold;
   color: #29b2d9 !important;
+}
+
+.sidebar-icons:hover {
+  fill: #29b2d9 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
