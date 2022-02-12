@@ -135,6 +135,22 @@
   }
 }
 
+/*Home Page Styles*/
+.keyword-btn {
+  border: 1px solid #fefefe;
+  box-sizing: border-box;
+  border-radius: 33px;
+}
+
+.keyword-btn:hover {
+  color: #fefefe;
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-weight: bold;
+}
+
+/*End of Home Page Styles*/
+
 /*Contact Page Styles */
 .custom-header {
   font-size: 6rem;
