@@ -85,6 +85,7 @@
 /* Global Styles */
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 /*container-fluid styles */
@@ -210,4 +211,12 @@
   background-color: transparent;
   border: #94a3b8 solid 2px;
   font-weight: bold;
+}
+
+/*portfolio gallery styles */
+.btn-keyword {
+  color: #fefefe;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 33px;
 }
