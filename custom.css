@@ -241,11 +241,3 @@ button.btn.btn-keyword:active {
   box-sizing: border-box;
   border-radius: 33px;
 }
-
-.filterDiv {
-  display: none; /* Hidden by default */
-}
-
-.showItem {
-  display: block;
-}

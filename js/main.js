@@ -1,47 +1,53 @@
-filterSelection("all");
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "showItem");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "showItem");
+// <!--Project 1-->
+// <div class="col-md-4 ">
+//   <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+//     <h5 class="card-title">Project title</h5>
+//       <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
+//         <div class="card-body">
+//           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim</p>
+//           <button type="submit" class="btn about-btn-custom mx-3 mb-3">Git Repo</a>
+//           <button type="submit" class="btn about-btn-custom mx-3 mb-3">Live URL</a>
+//         </div>
+//     </div>
+// </div>
+// <!--End of Project 1-->
+
+//fetch array of projects
+function fetchProjectData(projects) {
+  let promises = [];
+
+  for (let i = 0; i < projects.length; i++) {
+    let project = projects[i];
+    let category = project.category;
+
+    fetch("../data/dummyData.json");
   }
 }
 
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
+//render json to portfolio gallery cards
+function renderAllProjects(projects) {
+  const parent = document.getElementById("portfolio");
 
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
+  for (let i = 0; i < projects.length; i++) {
+    const project = projects[i];
 
-// Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+    let htmlString = `
+    <!--Project 1-->
+    <div class="col-md-4 ">
+      <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+        <h5 class="card-title">${project.title}</h5>
+          <img src="${project.image}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">${project.description}</p>
+              <button type="submit" class="btn about-btn-custom mx-3 mb-3">${project.github}</a>
+              <button type="submit" class="btn about-btn-custom mx-3 mb-3">${project.url}</a>
+            </div>
+        </div>
+    </div>
+    <!--End of Project 1-->`;
+    let col = document.createElement("div");
+    col.className = "col col-md-4";
+    col.innerHTML = htmlString;
+    parent.appendChild(col);
+  }
 }
