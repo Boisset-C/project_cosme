@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "title": "project one",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "work",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project two",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "work",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project three",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "work",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project four",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "work",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project five",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "work",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project six",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "other",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project seven",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "hackathons",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    },
+    {
+      "title": "project seven",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
+      "image": "image",
+      "category": "hackathons",
+      "github": "link",
+      "url": "assets/landing-images/project-placeholder.png"
+    }
+  ]
+}

@@ -227,3 +227,25 @@
   box-sizing: border-box;
   border-radius: 33px;
 }
+
+.btn-keyword:hover {
+  color: #12c2e9;
+  border: 1px solid #12c2e9;
+  box-sizing: border-box;
+  border-radius: 33px;
+}
+
+button.btn.btn-keyword:active {
+  color: #12c2e9;
+  border: 1px solid #12c2e9;
+  box-sizing: border-box;
+  border-radius: 33px;
+}
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+.showItem {
+  display: block;
+}

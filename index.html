@@ -202,19 +202,19 @@
         </div>
         <!--Portfolio Work Display-->
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-7 btnContainer">
             <h2 class="custom-subheader pt-5 px-3 pb-3">My Work</h2>
             <span class="color-white mx-3">Sort by:</span>
-            <button class="btn btn-keyword">All Projects</button>
-            <button class="btn btn-keyword">Client Work</button>
-            <button class="btn btn-keyword">Hackathons</button>
-            <button class="btn btn-keyword">Other</button>
+            <button class="btn btn-keyword" onclick="filterSelection('all')" >All Projects</button>
+            <button class="btn btn-keyword active" onclick="filterSelection('client')">Client Work</button>
+            <button class="btn btn-keyword" onclick="filterSelection('hackathons')">Hackathons</button>
+            <button class="btn btn-keyword" onclick="filterSelection('other')">Other</button>
           </div>
         </div>
     <div class="row">
-      <!--End of Project 1-->
-      <div class="col-md-4">
-        <div class="card border-0  bg-mirage color color-gullgray">
+      <!--Project 1-->
+      <div class="col-md-4 ">
+        <div class="card border-0  bg-mirage color color-gullgray filterDiv">
           <h5 class="card-title">Project title</h5>
             <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -227,7 +227,7 @@
       <!--End of Project 1-->
       <!-- Project 2-->
         <div class="col-md-4">
-          <div class="card border-0  bg-mirage color color-gullgray">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv client">
             <h5 class="card-title">Project title</h5>
               <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -242,7 +242,7 @@
       <div class="row ">
         <!--Project 3-->
         <div class="col-md-4">
-          <div class="card border-0  bg-mirage color color-gullgray">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv hackathons">
             <h5 class="card-title">Project title</h5>
               <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -255,7 +255,7 @@
         <!--End of Project 3-->
         <!-- Project 4-->
           <div class="col-md-4">
-            <div class="card border-0  bg-mirage color color-gullgray">
+            <div class="card border-0  bg-mirage color color-gullgray filterDiv other">
               <h5 class="card-title">Project title</h5>
                 <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -270,7 +270,7 @@
         <div class="row g-3">
           <!--Project 6-->
           <div class="col-md-4">
-            <div class="card border-0  bg-mirage color color-gullgray">
+            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
               <h5 class="card-title">Project title</h5>
                 <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -283,7 +283,7 @@
           <!--End of Project 6-->
           <!-- Project 7-->
             <div class="col-md-4">
-              <div class="card border-0  bg-mirage color color-gullgray">
+              <div class="card border-0  bg-mirage color color-gullgray filterDiv">
                 <h5 class="card-title">Project title</h5>
                   <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -299,7 +299,7 @@
           <div class="row g-3">
             <!-- Project 8-->
             <div class="col-md-4">
-              <div class="card border-0  bg-mirage color color-gullgray">
+              <div class="card border-0  bg-mirage color color-gullgray filterDiv">
                 <h5 class="card-title">Project title</h5>
                   <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -312,7 +312,7 @@
             <!--End of Project 8-->
             <!-- Project 2-->
               <div class="col-md-4">
-                <div class="card border-0  bg-mirage color color-gullgray">
+                <div class="card border-0  bg-mirage color color-gullgray filterDiv">
                   <h5 class="card-title">Project title</h5>
                     <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
                       <div class="card-body">
