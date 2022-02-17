@@ -24,8 +24,8 @@ function fetchAllProjects() {
     });
 }
 
-// const projects = fetchAllProjects();
-// console.log(projects);
+//automatically shows all projects
+fetchAllProjects();
 
 //fetch client work
 function fetchClientProjects() {
