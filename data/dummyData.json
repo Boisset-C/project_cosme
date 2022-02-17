@@ -3,66 +3,58 @@
     {
       "title": "project one",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "work",
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "other",
       "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "url": "https://github.com/Boisset-C"
     },
     {
       "title": "project two",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "work",
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "client",
       "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "url": "https://github.com/Boisset-C"
     },
     {
       "title": "project three",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "work",
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "hackathon",
       "github": "link",
       "url": "assets/landing-images/project-placeholder.png"
     },
     {
       "title": "project four",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
+      "image": "../assets/landing-images/project-placeholder.png",
       "category": "work",
       "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "url": "https://github.com/Boisset-C"
     },
     {
       "title": "project five",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "work",
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "other",
       "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "url": "https://github.com/Boisset-C"
     },
     {
       "title": "project six",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "other",
-      "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "hackathon",
+      "github": "https://github.com/Boisset-C",
+      "url": "https://www.youtube.com/watch?v=Oive66jrwBs"
     },
     {
       "title": "project seven",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "hackathons",
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "client",
       "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
-    },
-    {
-      "title": "project seven",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "image",
-      "category": "hackathons",
-      "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "url": "https://github.com/Boisset-C"
     }
   ]
 }

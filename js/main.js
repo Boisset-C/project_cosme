@@ -1,53 +1,118 @@
-// <!--Project 1-->
-// <div class="col-md-4 ">
-//   <div class="card border-0  bg-mirage color color-gullgray filterDiv">
-//     <h5 class="card-title">Project title</h5>
-//       <img src="/assets/landing-images/project-placeholder.png" class="card-img-top" alt="...">
-//         <div class="card-body">
-//           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim</p>
-//           <button type="submit" class="btn about-btn-custom mx-3 mb-3">Git Repo</a>
-//           <button type="submit" class="btn about-btn-custom mx-3 mb-3">Live URL</a>
-//         </div>
-//     </div>
-// </div>
-// <!--End of Project 1-->
-
-//fetch array of projects
-function fetchProjectData(projects) {
-  let promises = [];
-
-  for (let i = 0; i < projects.length; i++) {
-    let project = projects[i];
-    let category = project.category;
-
-    fetch("../data/dummyData.json");
-  }
+//fetch all projects
+function fetchAllProjects() {
+  fetch("../data/dummyData.json")
+    .then((res) => res.json())
+    .then((data) => {
+      let output = "";
+      let projects = data.projects;
+      projects.forEach((project) => {
+        output += `    <!--Project 1-->
+      <div class="col-md-4 ">
+        <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+            <img src="${project.image}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">${project.description}</p>
+                <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
+                <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
+              </div>
+          </div>
+      </div>
+      <!--End of Project 1-->`;
+      });
+      document.getElementById("portfolio").innerHTML = output;
+    });
 }
 
-//render json to portfolio gallery cards
-function renderAllProjects(projects) {
-  const parent = document.getElementById("portfolio");
+// const projects = fetchAllProjects();
+// console.log(projects);
 
-  for (let i = 0; i < projects.length; i++) {
-    const project = projects[i];
-
-    let htmlString = `
-    <!--Project 1-->
-    <div class="col-md-4 ">
-      <div class="card border-0  bg-mirage color color-gullgray filterDiv">
-        <h5 class="card-title">${project.title}</h5>
-          <img src="${project.image}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">${project.description}</p>
-              <button type="submit" class="btn about-btn-custom mx-3 mb-3">${project.github}</a>
-              <button type="submit" class="btn about-btn-custom mx-3 mb-3">${project.url}</a>
-            </div>
-        </div>
-    </div>
-    <!--End of Project 1-->`;
-    let col = document.createElement("div");
-    col.className = "col col-md-4";
-    col.innerHTML = htmlString;
-    parent.appendChild(col);
-  }
+//fetch client work
+function fetchClientProjects() {
+  fetch("../data/dummyData.json")
+    .then((res) => res.json())
+    .then((data) => {
+      let output = "";
+      let projects = data.projects;
+      projects.forEach((project) => {
+        if (project.category === "client") {
+          output += `    <!--Project 1-->
+          <div class="col-md-4 ">
+            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+              <h5 class="card-title">${project.title}</h5>
+                <img src="${project.image}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">${project.description}</p>
+                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
+                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
+                  </div>
+              </div>
+          </div>
+          <!--End of Project 1-->`;
+        }
+      });
+      document.getElementById("portfolio").innerHTML = output;
+    });
 }
+
+// const clientProjects = fetchClientProjects();
+
+//fetch hackathons projects
+function fetchHackathonProjects() {
+  fetch("../data/dummyData.json")
+    .then((res) => res.json())
+    .then((data) => {
+      let output = "";
+      let projects = data.projects;
+      projects.forEach((project) => {
+        if (project.category === "hackathon") {
+          output += `    <!--Project 1-->
+          <div class="col-md-4 ">
+            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+              <h5 class="card-title">${project.title}</h5>
+                <img src="${project.image}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">${project.description}</p>
+                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
+                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
+                  </div>
+              </div>
+          </div>
+          <!--End of Project 1-->`;
+        }
+      });
+      document.getElementById("portfolio").innerHTML = output;
+    });
+}
+
+// const hackathonProjects = fetchHackathonProjects();
+
+//fetch other projects
+function fetchOtherProjects() {
+  fetch("../data/dummyData.json")
+    .then((res) => res.json())
+    .then((data) => {
+      let output = "";
+      let projects = data.projects;
+      projects.forEach((project) => {
+        if (project.category === "other") {
+          output += `    <!--Project 1-->
+          <div class="col-md-4 ">
+            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+              <h5 class="card-title">${project.title}</h5>
+                <img src="${project.image}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">${project.description}</p>
+                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
+                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
+                  </div>
+              </div>
+          </div>
+          <!--End of Project 1-->`;
+        }
+      });
+      document.getElementById("portfolio").innerHTML = output;
+    });
+}
+
+// const otherProjects = fetchOtherProjects();
