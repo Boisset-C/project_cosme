@@ -9,52 +9,52 @@
       "url": "https://livestreamplatformexample.netlify.app/landing"
     },
     {
-      "title": "project two",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
+      "title": "Author Landing Page",
+      "description": "This Marketing page was built for the author of Geriatric Notes to give their customer base a place to contact and order their book. I used BootStrap 5 and css to build the Front End and for the Back End, hosted it on netlify and as well as connected the contact form to netlify form submission collecting tool.",
+      "image": "../assets/project-images/author_project.png",
       "category": "client",
-      "github": "link",
-      "url": "https://github.com/Boisset-C"
+      "github": "https://www.jamiewsmithnp.com/",
+      "url": "https://github.com/Boisset-C/author_website_bootstrap5.0"
     },
     {
-      "title": "project three",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
-      "category": "hackathon",
-      "github": "link",
-      "url": "assets/landing-images/project-placeholder.png"
+      "title": "WP Livestream Platform",
+      "description": "Using WordPress/Divi I built a Live Streaming Platform to host interviews with an archive and a landing page. This involved integrating the Embedding live stream events. I built it using the multi-site option, to allow it to be easily duplicatable, to be reused depending on the theme of the interviews. I set up the DNS for the main site as well as the subsites.",
+      "image": "../assets/project-images/wordpress_project.png",
+      "category": "client",
+      "github": "https://www.vvcpresents.live/",
+      "url": "https://www.vvcpresents.live/"
     },
     {
-      "title": "project four",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
-      "category": "work",
-      "github": "link",
-      "url": "https://github.com/Boisset-C"
-    },
-    {
-      "title": "project five",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
+      "title": "Ehya Landing Example",
+      "description": "An example of a polished landing page, that I converted from a figma design into html, css and javascript using bootstrap 5. It is responsive. ",
+      "image": "../assets/project-images/ehya_project.png",
       "category": "other",
-      "github": "link",
-      "url": "https://github.com/Boisset-C"
+      "github": "https://github.com/Boisset-C/ehya_landing_page_bootstrapv5.0",
+      "url": "https://ehyalandingpage.netlify.app/"
     },
     {
-      "title": "project six",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
+      "title": "Light Tower",
+      "description": "My first Hackathon and first time working within a team. A wonderful experience of staying up for 48 hours! Working alongside two UX designers, I converted their  Figma Design into a responsive landing page using vue and css, learning how to harness the strength of flex box!",
+      "image": "../assets/project-images/light_tower.png",
       "category": "hackathon",
-      "github": "https://github.com/Boisset-C",
-      "url": "https://www.youtube.com/watch?v=Oive66jrwBs"
+      "github": "https://github.com/Boisset-C/led_product_landing_page",
+      "url": "https://blissful-benz-5c031a.netlify.app"
     },
     {
-      "title": "project seven",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
-      "category": "client",
-      "github": "link",
-      "url": "https://github.com/Boisset-C"
+      "title": "Help Beacon",
+      "description": "Teamed up with two front-end devs, a backend dev and three designers we built an app that allows people in crisis to reach out to their support group. I led the charge in building the landing page using bootstrap 5 and taught a git/github workflow. (ill add a more a specific description. After that we built a lot of the app on react using BootStrap React. ",
+      "image": "../assets/project-images/beacon_project.png",
+      "category": "hackathon",
+      "github": "https://github.com/Boisset-C/help_beacon",
+      "url": "https://github.com/Boisset-C/help_beacon"
+    },
+    {
+      "title": "Ventia",
+      "description": "Combined with the help of an experienced backend dev, and an experienced frontend developer, I learned how to style a react project using a a reusable theme page, and CSS-in-JS, a different approach to styling that I had experienced. I also learned about server-side rendering and using next.js in tandem with with react to create a speedy application. ",
+      "image": "../assets/project-images/ventia.png",
+      "category": "hackathon",
+      "github": "https://github.com/medium-brain-club/mental-health-hackathon-FE",
+      "url": "https://github.com/medium-brain-club/mental-health-hackathon-FE"
     }
   ]
 }
