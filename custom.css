@@ -220,6 +220,12 @@
   font-weight: bold;
 }
 
+@media (min-width: 576px) {
+  .custom-left-margin {
+    margin-left: 12vw;
+  }
+}
+
 /*portfolio gallery styles */
 .btn-keyword {
   color: #fefefe;
