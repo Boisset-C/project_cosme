@@ -1,12 +1,12 @@
 {
   "projects": [
     {
-      "title": "project one",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus dolor purus non enim",
-      "image": "../assets/landing-images/project-placeholder.png",
-      "category": "other",
-      "github": "link",
-      "url": "https://github.com/Boisset-C"
+      "title": "React Livestream Platform",
+      "description": "My first deep dive in using react. I built this from scratch using HTML, SCSS and React. This taught me many aspects of building for the web. I used the syntax for function components. I learned how to implement React-Router. I used the rest API to pull Vimeo Videos and populate cards using javascript and json. I converted this design from a Figma file to build a responsive website.  ",
+      "image": "../assets/project-images/react_project.png",
+      "category": "client",
+      "github": "https://github.com/Boisset-C/another_one",
+      "url": "https://livestreamplatformexample.netlify.app/landing"
     },
     {
       "title": "project two",
