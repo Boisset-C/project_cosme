@@ -205,8 +205,9 @@
   border: #94a3b8 solid 2px;
   font-weight: bold;
 }
+/* End of Contact Page */
 
-/* About Page Styles*/
+/* About Page Styles */
 .about-btn-custom {
   color: #94a3b8;
   background-color: transparent;
@@ -247,3 +248,17 @@ button.btn.btn-keyword:active {
   box-sizing: border-box;
   border-radius: 33px;
 }
+
+/* Skills Page */
+.skills-list {
+  background-color: transparent;
+  border: none;
+}
+
+.skill-item {
+  background-color: transparent;
+  color: orange;
+  border: none;
+  font-weight: bold;
+}
+/*End of Skills Page */
