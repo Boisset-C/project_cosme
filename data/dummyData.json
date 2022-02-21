@@ -2,39 +2,39 @@
   "projects": [
     {
       "title": "React Livestream Platform",
-      "description": "My first deep dive in using react. I built this from scratch using HTML, SCSS and React. This taught me many aspects of building for the web. I used the syntax for function components. I learned how to implement React-Router. I used the rest API to pull Vimeo Videos and populate cards using javascript and json. I converted this design from a Figma file to build a responsive website.  ",
+      "description": "My first deep dive in using react. A responsive livestream event platform. Complete with an Event page and an Archive page. Integrated with Vimeo using REST API. Built with React for the front end, SCSS for the styling. Worked in tandem with a designer, I converted this page from their Figma design.   ",
       "image": "../assets/project-images/react_project.png",
       "category": "client",
       "github": "https://github.com/Boisset-C/another_one",
-      "url": "https://livestreamplatformexample.netlify.app/landing"
+      "url": "https://livestreamplatformexample.netlify.app"
     },
     {
       "title": "Author Landing Page",
-      "description": "This Marketing page was built for the author of Geriatric Notes to give their customer base a place to contact and order their book. I used BootStrap 5 and css to build the Front End and for the Back End, hosted it on netlify and as well as connected the contact form to netlify form submission collecting tool.",
+      "description": "  A responsive marketing page for the Author of Geriatric Notes. For the Front end I used Bootstrap 5 and custom CSS. To host I used Netlify and connected the Contact form to Netlify's built-in form collection system.",
       "image": "../assets/project-images/author_project.png",
       "category": "client",
-      "github": "https://www.jamiewsmithnp.com/",
-      "url": "https://github.com/Boisset-C/author_website_bootstrap5.0"
-    },
-    {
-      "title": "WP Livestream Platform",
-      "description": "Using WordPress/Divi I built a Live Streaming Platform to host interviews with an archive and a landing page. This involved integrating the Embedding live stream events. I built it using the multi-site option, to allow it to be easily duplicatable, to be reused depending on the theme of the interviews. I set up the DNS for the main site as well as the subsites.",
-      "image": "../assets/project-images/wordpress_project.png",
-      "category": "client",
-      "github": "https://www.vvcpresents.live/",
-      "url": "https://www.vvcpresents.live/"
+      "github": "https://github.com/Boisset-C/author_website_bootstrap5.0",
+      "url": "https://www.jamiewsmithnp.com/"
     },
     {
       "title": "Ehya Landing Example",
-      "description": "An example of a polished landing page, that I converted from a figma design into html, css and javascript using bootstrap 5. It is responsive. ",
+      "description": "A polished responsive marketing page. Converted from a Figma design using Bootstrap 5 and custom CSS styling.",
       "image": "../assets/project-images/ehya_project.png",
       "category": "other",
       "github": "https://github.com/Boisset-C/ehya_landing_page_bootstrapv5.0",
       "url": "https://ehyalandingpage.netlify.app/"
     },
     {
+      "title": "WP Livestream Platform",
+      "description": "A responsive livestream event platform. Built with Wordpress/Divi. Complete with an Archive page and an Event page. I created this site in a way that it could be duplicated, to adapt the site to future events. ",
+      "image": "../assets/project-images/wordpress_project.png",
+      "category": "client",
+      "github": "#",
+      "url": "https://www.vvcpresents.live/"
+    },
+    {
       "title": "Light Tower",
-      "description": "My first Hackathon and first time working within a team. A wonderful experience of staying up for 48 hours! Working alongside two UX designers, I converted their  Figma Design into a responsive landing page using vue and css, learning how to harness the strength of flex box!",
+      "description": " My first Hackathon and first time working within a team. A wonderful  experience of staying up for 48 hours! Worked alongside two UX  designers. Converted their  Figma Design into a responsive landing  page using Vue.js and CSS. We place 2nd!",
       "image": "../assets/project-images/light_tower.png",
       "category": "hackathon",
       "github": "https://github.com/Boisset-C/led_product_landing_page",
@@ -42,19 +42,27 @@
     },
     {
       "title": "Help Beacon",
-      "description": "Teamed up with two front-end devs, a backend dev and three designers we built an app that allows people in crisis to reach out to their support group. I led the charge in building the landing page using bootstrap 5 and taught a git/github workflow. (ill add a more a specific description. After that we built a lot of the app on react using BootStrap React. ",
+      "description": "Working in tandem with a team of 5 we built an app that allows people in crisis to reach out to their support  group. I was in charge of  building the landing page using Bootstrap 5. I also introduced a git/github workflow for the other developers. (ill add a more a specific  description. After that we built a lot of the app on react using  BootStrap React. We placed 2nd!  ",
       "image": "../assets/project-images/beacon_project.png",
       "category": "hackathon",
       "github": "https://github.com/Boisset-C/help_beacon",
-      "url": "https://github.com/Boisset-C/help_beacon"
+      "url": "https://www.fallin.today/"
     },
     {
       "title": "Ventia",
-      "description": "Combined with the help of an experienced backend dev, and an experienced frontend developer, I learned how to style a react project using a a reusable theme page, and CSS-in-JS, a different approach to styling that I had experienced. I also learned about server-side rendering and using next.js in tandem with with react to create a speedy application. ",
+      "description": " Combined efforts with an experienced team of  developers and designers. Ventia, a safe place to vent. We used React.js, Next.js, CSS-in-JS as well as custom hooks for better control over the responsiveness of the app. ",
       "image": "../assets/project-images/ventia.png",
       "category": "hackathon",
       "github": "https://github.com/medium-brain-club/mental-health-hackathon-FE",
-      "url": "https://github.com/medium-brain-club/mental-health-hackathon-FE"
+      "url": "#"
+    },
+    {
+      "title": "My Portfolio!",
+      "description": "My portfolio! Built with BootStrap 5, CSS and Javascript. Hosted with Netlify.",
+      "image": "../assets/landing-images/project-placeholder.png",
+      "category": "other",
+      "github": "https://github.com/Boisset-C/project_cosme",
+      "url": "https://cosmeboisset.com/"
     }
   ]
 }
