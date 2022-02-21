@@ -95,6 +95,30 @@
   box-sizing: border-box;
 }
 
+input[type="text"] {
+  color: #94a3b8;
+}
+
+input[type="text"]:focus {
+  color: #94a3b8;
+}
+
+input[type="email"] {
+  color: #94a3b8;
+}
+
+input[type="email"]:focus {
+  color: #94a3b8;
+}
+
+input[type="email"] {
+  color: #94a3b8;
+}
+
+input[type="email"]:focus {
+  color: #94a3b8;
+}
+
 /*container-fluid styles */
 .container-fluid {
   padding-left: initial;
@@ -205,6 +229,7 @@
   border: #94a3b8 solid 2px;
   font-weight: bold;
 }
+
 /* End of Contact Page */
 
 /* About Page Styles */
