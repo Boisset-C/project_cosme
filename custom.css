@@ -276,6 +276,8 @@ button.btn.btn-keyword:active {
 
 .project-images:hover {
   transform: scale(103%);
+  background-color: #fefefe;
+  opacity: 0.8;
 }
 
 /* Skills Page */
