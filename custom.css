@@ -274,6 +274,10 @@ button.btn.btn-keyword:active {
   border-radius: 33px;
 }
 
+.project-images:hover {
+  transform: scale(103%);
+}
+
 /* Skills Page */
 .skills-list {
   background-color: transparent;
