@@ -57,8 +57,6 @@ function fetchClientProjects() {
     });
 }
 
-// const clientProjects = fetchClientProjects();
-
 //fetch hackathons projects
 function fetchHackathonProjects() {
   fetch("../data/dummyData.json")
@@ -87,8 +85,6 @@ function fetchHackathonProjects() {
     });
 }
 
-// const hackathonProjects = fetchHackathonProjects();
-
 //fetch other projects
 function fetchOtherProjects() {
   fetch("../data/dummyData.json")
@@ -116,5 +112,3 @@ function fetchOtherProjects() {
       document.getElementById("portfolio").innerHTML = output;
     });
 }
-
-// const otherProjects = fetchOtherProjects();
