@@ -103,8 +103,8 @@ function fetchOtherProjects() {
                 <img src="${project.image}" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text">${project.description}</p>
-                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
-                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
+                    <a href="${project.github}" class="btn about-btn-custom mb-3" target="_blank">Git repo</a>
+                    <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
                   </div>
               </div>
           </div>
