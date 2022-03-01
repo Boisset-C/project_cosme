@@ -50,7 +50,7 @@
     },
     {
       "title": "My Portfolio",
-      "description": "My portfolio! Built with BootStrap 5, CSS and Javascript. Hosted with Netlify. Always working to improve it, will happily take any constructive criticism",
+      "description": "My portfolio! Built with BootStrap 5, CSS and JavaScript. Hosted with Netlify. Always working to improve it, will happily take any constructive criticism",
       "image": "../assets/project-images/portfolio_picture.png",
       "category": "other",
       "github": "https://github.com/Boisset-C/project_cosme",
