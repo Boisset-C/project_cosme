@@ -1,3 +1,33 @@
+/* Global Styles */
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  color: #94a3b8;
+}
+
+input[type="text"]:focus {
+  color: #94a3b8;
+}
+
+input[type="email"] {
+  color: #94a3b8;
+}
+
+input[type="email"]:focus {
+  color: #94a3b8;
+}
+
+input[type="email"] {
+  color: #94a3b8;
+}
+
+input[type="email"]:focus {
+  color: #94a3b8;
+}
+
 /* color palette */
 .color-ebony {
   color: #0f172a;
@@ -87,36 +117,6 @@
 
 .bg-header-gradient {
   background: linear-gradient(90deg, #12c2e9 0%, #c471ed 50%, #f64f59 100%);
-}
-
-/* Global Styles */
-* {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-}
-
-input[type="text"] {
-  color: #94a3b8;
-}
-
-input[type="text"]:focus {
-  color: #94a3b8;
-}
-
-input[type="email"] {
-  color: #94a3b8;
-}
-
-input[type="email"]:focus {
-  color: #94a3b8;
-}
-
-input[type="email"] {
-  color: #94a3b8;
-}
-
-input[type="email"]:focus {
-  color: #94a3b8;
 }
 
 /*container-fluid styles */
