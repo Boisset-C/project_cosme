@@ -6,21 +6,53 @@ function fetchAllProjects() {
       let output = "";
       let projects = data.projects;
       projects.forEach((project) => {
-        output += `    <!--Project 1-->
-      <div class="col-md-4 ">
+        if (project.title === "Ventia") {
+          output += `    <!--Project-->
+          <div class="col-md-4 ">
           <div class="card border-0  bg-mirage color color-gullgray filterDiv">
-            <h5 class="card-title">${project.title}</h5>
-             <a class="project-images" href="${project.url}">
-              <img src="${project.image}" class="card-img-top" alt="...">
-              </a>  
-              <div class="card-body">
-                <p class="card-text">${project.description}</p>
-                <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
-                <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
-              </div>
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.github}" class="btn about-btn-custom mb-3" target="_blank">Git repo</a>
           </div>
-      </div>
-      <!--End of Project 1-->`;
+          </div>
+          </div>
+          <!--End of Project -->`;
+        } else if (project.title === "WP Livestream Platform") {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project-->`;
+        } else {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          <a href="${project.github}" class="btn about-btn-custom ms-3 mb-3" target="_blank">Git repo</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project-->`;
+        }
       });
       document.getElementById("portfolio").innerHTML = output;
     });
@@ -37,20 +69,55 @@ function fetchClientProjects() {
       let output = "";
       let projects = data.projects;
       projects.forEach((project) => {
-        if (project.category === "client") {
-          output += `    <!--Project 1-->
+        if (project.title === "Ventia" && project.category === "client") {
+          output += `    <!--Project-->
           <div class="col-md-4 ">
-            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
-              <h5 class="card-title">${project.title}</h5>
-                <img src="${project.image}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">${project.description}</p>
-                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
-                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
-                  </div>
-              </div>
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.github}" class="btn about-btn-custom mb-3" target="_blank">Git repo</a>
           </div>
-          <!--End of Project 1-->`;
+          </div>
+          </div>
+          <!--End of Project-->`;
+        } else if (
+          project.title === "WP Livestream Platform" &&
+          project.category === "client"
+        ) {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project -->`;
+        } else if (project.category === "client") {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          <a href="${project.github}" class="btn about-btn-custom ms-3 mb-3" target="_blank">Git repo</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project -->`;
         }
       });
       document.getElementById("portfolio").innerHTML = output;
@@ -65,26 +132,60 @@ function fetchHackathonProjects() {
       let output = "";
       let projects = data.projects;
       projects.forEach((project) => {
-        if (project.category === "hackathon") {
-          output += `    <!--Project 1-->
+        if (project.title === "Ventia" && project.category === "hackathon") {
+          output += `    <!--Project-->
           <div class="col-md-4 ">
-            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
-              <h5 class="card-title">${project.title}</h5>
-                <img src="${project.image}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">${project.description}</p>
-                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
-                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
-                  </div>
-              </div>
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.github}" class="btn about-btn-custom mb-3" target="_blank">Git repo</a>
           </div>
-          <!--End of Project 1-->`;
+          </div>
+          </div>
+          <!--End of Project-->`;
+        } else if (
+          project.title === "WP Livestream Platform" &&
+          project.category === "hackathon"
+        ) {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project -->`;
+        } else if (project.category === "hackathon") {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          <a href="${project.github}" class="btn about-btn-custom ms-3 mb-3" target="_blank">Git repo</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project -->`;
         }
       });
       document.getElementById("portfolio").innerHTML = output;
     });
 }
-
 //fetch other projects
 function fetchOtherProjects() {
   fetch("../data/dummyData.json")
@@ -93,20 +194,55 @@ function fetchOtherProjects() {
       let output = "";
       let projects = data.projects;
       projects.forEach((project) => {
-        if (project.category === "other") {
-          output += `    <!--Project 1-->
+        if (project.title === "Ventia" && project.category === "other") {
+          output += `    <!--Project-->
           <div class="col-md-4 ">
-            <div class="card border-0  bg-mirage color color-gullgray filterDiv">
-              <h5 class="card-title">${project.title}</h5>
-                <img src="${project.image}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">${project.description}</p>
-                    <a href="${project.github}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Git repo</a>
-                    <a href="${project.url}" class="btn about-btn-custom mx-3 mb-3" target="_blank">Live Url</a>
-                  </div>
-              </div>
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.github}" class="btn about-btn-custom mb-3" target="_blank">Git repo</a>
           </div>
-          <!--End of Project 1-->`;
+          </div>
+          </div>
+          <!--End of Project-->`;
+        } else if (
+          project.title === "WP Livestream Platform" &&
+          project.category === "other"
+        ) {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project -->`;
+        } else if (project.category === "other") {
+          output += `    <!--Project -->
+          <div class="col-md-4 ">
+          <div class="card border-0  bg-mirage color color-gullgray filterDiv">
+          <h5 class="card-title">${project.title}</h5>
+          <a class="project-images" href="${project.url}">
+          <img src="${project.image}" class="card-img-top" alt="...">
+          </a>  
+          <div class="card-body">
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn about-btn-custom mb-3" target="_blank">Live Url</a>
+          <a href="${project.github}" class="btn about-btn-custom ms-3 mb-3" target="_blank">Git repo</a>
+          </div>
+          </div>
+          </div>
+          <!--End of Project -->`;
         }
       });
       document.getElementById("portfolio").innerHTML = output;

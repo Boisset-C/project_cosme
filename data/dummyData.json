@@ -29,7 +29,7 @@
       "description": "A responsive livestream event platform. Built with Wordpress/Divi. Complete with an Archive page and an Event page. I created this site in a way that it could be duplicated, to adapt the site to future events. ",
       "image": "../assets/project-images/wordpress_project.png",
       "category": "client",
-      "github": "#portfolio",
+      "github": "",
       "url": "https://www.vvcpresents.live/"
     },
     {
@@ -46,7 +46,7 @@
       "image": "../assets/project-images/ventia.png",
       "category": "hackathon",
       "github": "https://github.com/medium-brain-club/mental-health-hackathon-FE",
-      "url": "#"
+      "url": ""
     },
     {
       "title": "My Portfolio",
