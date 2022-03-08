@@ -252,6 +252,23 @@ input[type="email"]:focus {
   }
 }
 
+#chess {
+  text-decoration: none;
+  background-color: transparent;
+  color: orange;
+  border: none;
+  font-size: larger;
+}
+
+#chess:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: orange;
+  font-weight: bold;
+  border: none;
+  font-size: larger;
+}
+
 /*portfolio gallery styles */
 .btn-keyword {
   color: #fefefe;
