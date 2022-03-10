@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.row {
+  margin-right: 0rem !important;
+}
 input[type="text"] {
   color: #94a3b8;
 }
