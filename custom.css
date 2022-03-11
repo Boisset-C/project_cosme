@@ -92,7 +92,7 @@ input[type="email"]:focus {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .custom-home-vh {
     height: 100vh;
   }
@@ -130,13 +130,6 @@ input[type="email"]:focus {
 }
 
 /* Sidebar Styles */
-
-/* desktop sidebar view*/
-@media (min-width: 800px) {
-  .custom-vh-md {
-    height: 100vh;
-  }
-}
 
 /*mobile side view sidebar*/
 @media (max-height: 430px) {
