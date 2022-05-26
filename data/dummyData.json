@@ -17,6 +17,14 @@
       "url": "https://www.jamiewsmithnp.com/"
     },
     {
+      "title": "Sample Portfolio Page",
+      "description": "A sample portfolio page I made using html, css and bootstrap converted it from a Figma Design. It's is fully responsive for mobile and desktop.",
+      "image": "../assets/project-images/project-bobby.png",
+      "category": "other",
+      "github": "https://github.com/Boisset-C/project_bobby",
+      "url": "https://project-bobby.netlify.app"
+    },
+    {
       "title": "Ehya Landing Example",
       "description": "A polished responsive marketing page. Worked in tandem with a designer to convert Figma design using Bootstrap 5 and custom CSS styling.",
       "image": "../assets/project-images/ehya_project.png",
