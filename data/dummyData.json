@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "title": "HasDID",
+      "description": "Helping non-tech creators publicize their personal DID to all NFT marketplaces. Teamed up with a backend dev and a UX designer. We won first place! This also landed us on a podcast make sure to check it out. ",
+      "image": "../assets/project-images/hasdid.png",
+      "category": "hackathon",
+      "github": "https://github.com/hasDID-io",
+      "url": "https://hasdid.io/"
+    },
+    {
       "title": "React Livestream Platform",
       "description": "A responsive live stream event platform. Complete with an Event page and an Archive page. Integrated with Vimeo using REST API. Built with React and SCSS . Converted from a Figma design. ",
       "image": "../assets/project-images/react_project.png",
