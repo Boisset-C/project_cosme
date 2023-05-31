@@ -1,84 +1,68 @@
 {
-  "projects": [
-    {
-      "title": "HasDID",
-      "description": "Helping non-tech creators publicize their personal DID to all NFT marketplaces. Teamed up with a backend dev and a UX designer. We won first place! This also landed us on a podcast make sure to check it out. ",
-      "image": "../assets/project-images/hasdid.png",
-      "category": "hackathon",
-      "github": "https://github.com/hasDID-io",
-      "url": "https://hasdid.io/"
-    },
-    {
-      "title": "React Livestream Platform",
-      "description": "A responsive live stream event platform. Complete with an Event page and an Archive page. Integrated with Vimeo using REST API. Built with React and SCSS . Converted from a Figma design. ",
-      "image": "../assets/project-images/react_project.png",
-      "category": "client",
-      "github": "https://github.com/Boisset-C/another_one",
-      "url": "https://livestreamplatformexample.netlify.app"
-    },
-    {
-      "title": "Author Landing Page",
-      "description": "  A responsive marketing page for the Author of Geriatric Notes. Built with BootStrap 5 and CSS. To host I used Netlify and connected the Contact form to Netlify's built-in form collection system.",
-      "image": "../assets/project-images/author_project.png",
-      "category": "client",
-      "github": "https://github.com/Boisset-C/author_website_bootstrap5.0",
-      "url": "https://www.jamiewsmithnp.com/"
-    },
-    {
-      "title": "Sample Portfolio Page",
-      "description": "A sample portfolio page I made using html, css and bootstrap converted it from a Figma Design. It's is fully responsive for mobile and desktop.",
-      "image": "../assets/project-images/project-bobby.png",
-      "category": "other",
-      "github": "https://github.com/Boisset-C/project_bobby",
-      "url": "https://project-bobby.netlify.app"
-    },
-    {
-      "title": "Ehya Landing Example",
-      "description": "A polished responsive marketing page. Worked in tandem with a designer to convert Figma design using Bootstrap 5 and custom CSS styling.",
-      "image": "../assets/project-images/ehya_project.png",
-      "category": "other",
-      "github": "https://github.com/Boisset-C/ehya_landing_page_bootstrapv5.0",
-      "url": "https://ehyalandingpage.netlify.app/"
-    },
-    {
-      "title": "WP Livestream Platform",
-      "description": "A responsive livestream event platform. Built with Wordpress/Divi. Complete with an Archive page and an Event page. I created this site in a way that it could be duplicated, to adapt the site to future events. ",
-      "image": "../assets/project-images/wordpress_project.png",
-      "category": "client",
-      "github": "",
-      "url": "https://www.vvcpresents.live/"
-    },
-    {
-      "title": "Help Beacon",
-      "description": "An app that allows those in crisis to reach out to their support group.We built landing page with Bootstrap 5 and app with React. I introduced a git/github workflow to the developers. We placed 2nd!  ",
-      "image": "../assets/project-images/beacon_project.png",
-      "category": "hackathon",
-      "github": "https://github.com/Boisset-C/help_beacon",
-      "url": "https://www.fallin.today/"
-    },
-    {
-      "title": "Ventia",
-      "description": " Combined efforts with a team of  developers and designers. Ventia, a safe place to vent. We used React.js, Next.js, CSS-in-JS as well as custom hooks for better control over the responsiveness of the app. ",
-      "image": "../assets/project-images/ventia.png",
-      "category": "hackathon",
-      "github": "https://github.com/medium-brain-club/mental-health-hackathon-FE",
-      "url": ""
-    },
-    {
-      "title": "My Portfolio",
-      "description": "My portfolio! Built with BootStrap 5, CSS and JavaScript. Hosted with Netlify. Always working to improve it, will happily take any constructive criticism",
-      "image": "../assets/project-images/portfolio_picture.png",
-      "category": "other",
-      "github": "https://github.com/Boisset-C/project_cosme",
-      "url": "https://cosmeboisset.com/"
-    },
-    {
-      "title": "Light Tower",
-      "description": " My first Hackathon. A wonderful  experience of staying up for 48 hours! Worked alongside two UX  designers. Converted their  Figma Design into a  landing  page using Vue.js and CSS. We placed 2nd!",
-      "image": "../assets/project-images/light_tower.png",
-      "category": "hackathon",
-      "github": "https://github.com/Boisset-C/led_product_landing_page",
-      "url": "https://blissful-benz-5c031a.netlify.app"
-    }
-  ]
+	"projects": [
+		{
+			"title": "HasDID",
+			"description": "Helping non-tech creators publicize their personal DID to all NFT marketplaces. Teamed up with a backend dev and a UX designer. We won first place! This also landed us on a podcast make sure to check it out. ",
+			"image": "../assets/project-images/hasdid.png",
+			"category": "hackathon",
+			"github": "https://github.com/hasDID-io",
+			"url": "https://hasdid.io/"
+		},
+		{
+			"title": "Author Landing Page",
+			"description": "  A responsive marketing page for the Author of Geriatric Notes. Built with BootStrap 5 and CSS. To host I used Netlify and connected the Contact form to Netlify's built-in form collection system.",
+			"image": "../assets/project-images/author_project.png",
+			"category": "client",
+			"github": "https://github.com/Boisset-C/author_website_bootstrap5.0",
+			"url": "https://www.jamiewsmithnp.com/"
+		},
+		{
+			"title": "Sample Portfolio Page",
+			"description": "A sample portfolio page I made using html, css and bootstrap converted it from a Figma Design. It's is fully responsive for mobile and desktop.",
+			"image": "../assets/project-images/project-bobby.png",
+			"category": "other",
+			"github": "https://github.com/Boisset-C/project_bobby",
+			"url": "https://project-bobby.netlify.app"
+		},
+		{
+			"title": "Ehya Landing Example",
+			"description": "A polished responsive marketing page. Worked in tandem with a designer to convert Figma design using Bootstrap 5 and custom CSS styling.",
+			"image": "../assets/project-images/ehya_project.png",
+			"category": "other",
+			"github": "https://github.com/Boisset-C/ehya_landing_page_bootstrapv5.0",
+			"url": "https://ehyalandingpage.netlify.app/"
+		},
+		{
+			"title": "Help Beacon",
+			"description": "An app that allows those in crisis to reach out to their support group.We built landing page with Bootstrap 5 and app with React. I introduced a git/github workflow to the developers. We placed 2nd!  ",
+			"image": "../assets/project-images/beacon_project.png",
+			"category": "hackathon",
+			"github": "https://github.com/Boisset-C/help_beacon",
+			"url": "https://www.fallin.today/"
+		},
+		{
+			"title": "Ventia",
+			"description": " Combined efforts with a team of  developers and designers. Ventia, a safe place to vent. We used React.js, Next.js, CSS-in-JS as well as custom hooks for better control over the responsiveness of the app. ",
+			"image": "../assets/project-images/ventia.png",
+			"category": "hackathon",
+			"github": "https://github.com/medium-brain-club/mental-health-hackathon-FE",
+			"url": ""
+		},
+		{
+			"title": "My Portfolio",
+			"description": "My portfolio! Built with BootStrap 5, CSS and JavaScript. Hosted with Netlify. Always working to improve it, will happily take any constructive criticism",
+			"image": "../assets/project-images/portfolio_picture.png",
+			"category": "other",
+			"github": "https://github.com/Boisset-C/project_cosme",
+			"url": "https://cosmeboisset.com/"
+		},
+		{
+			"title": "Light Tower",
+			"description": " My first Hackathon. A wonderful  experience of staying up for 48 hours! Worked alongside two UX  designers. Converted their  Figma Design into a  landing  page using Vue.js and CSS. We placed 2nd!",
+			"image": "../assets/project-images/light_tower.png",
+			"category": "hackathon",
+			"github": "https://github.com/Boisset-C/led_product_landing_page",
+			"url": "https://blissful-benz-5c031a.netlify.app"
+		}
+	]
 }
